@@ -12,5 +12,35 @@
             sequence="1"
             action="action_nhan_vien"
         />
+        <menuitem name="Quản lý phòng ban" 
+            id="menu_phong_ban" 
+            parent="menu_root" 
+            sequence="2"
+            action="action_phong_ban"
+        />
+        <menuitem name="Quản lý chứng chỉ" 
+            id="menu_chung_chi" 
+            parent="menu_root" 
+            sequence="3"
+            action="action_chung_chi"
+        />
+        <menuitem name="Quản lý hợp đồng lao động" 
+            id="menu_hop_dong" 
+            parent="menu_root" 
+            sequence="4"
+            action="action_hop_dong"
+        />
+        <menuitem name="Quản lý chấm công" 
+            id="menu_cham_cong" 
+            parent="menu_root" 
+            sequence="5"
+            action="action_cham_cong"
+        />
+        <menuitem name="Quản lý bảng lương" 
+            id="menu_bang_luong" 
+            parent="menu_root" 
+            sequence="6"
+            action="action_bang_luong"
+        />
     </data>
 </odoo>

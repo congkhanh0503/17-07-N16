@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "nhan_su",
+    'name': "quan_ly_tai_san",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -25,12 +25,7 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/nhan_vien.xml',
-        'views/phong_ban.xml',
-        'views/chung_chi.xml',
-        'views/hop_dong_lao_dong.xml', 
-        'views/cham_cong.xml',
-        'views/bang_luong.xml',
+        'views/tai_san.xml',
         'views/menu.xml',
     ],
     # only loaded in demonstration mode
