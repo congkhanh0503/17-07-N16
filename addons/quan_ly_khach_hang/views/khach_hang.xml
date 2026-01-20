@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_khach_hang_tree" model="ir.ui.view">
+            <field name="name">khach_hang.tree</field>
+            <field name="model">khach_hang</field>
+            <field name="arch" type="xml">
+                <tree string="Danh sách Khách hàng">
+                    <field name="full_name"/>
+                    <field name="email"/>
+                    <field name="phone"/>
+                    <field name="address"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_khach_hang_form" model="ir.ui.view">
+            <field name="name">khach_hang.form</field>
+            <field name="model">khach_hang</field>
+            <field name="arch" type="xml">
+                <form string="Thông tin Khách hàng">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="full_name" class="oe_edit_only" string="Họ và tên khách hàng"/>
+                            <h1><field name="full_name" readonly="0" placeholder="Ví dụ: Nguyễn Văn A..."/></h1>
+                        </div>
+                        <group>
+                            <group string="Thông tin cá nhân">
+                                <field name="birthday"/>
+                            </group>
+                            <group string="Liên hệ">
+                                <field name="email" widget="email"/>
+                                <field name="phone" widget="phone"/>
+                                <field name="address"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Hợp đồng" name="contracts">
+                                <field name="hop_dong_ids">
+                                    <tree editable="bottom">
+                                        <field name="ten"/>
+                                        <field name="ngay_bat_dau"/>
+                                        <field name="gia_tri_hop_dong"/>
+                                        <field name="trang_thai" widget="badge"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_khach_hang" model="ir.actions.act_window">
+            <field name="name">Khách hàng</field>
+            <field name="res_model">khach_hang</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

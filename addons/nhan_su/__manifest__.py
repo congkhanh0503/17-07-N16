@@ -20,17 +20,16 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'mail',],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
         'views/nhan_vien.xml',
         'views/phong_ban.xml',
+        'views/chuc_vu.xml',
         'views/chung_chi.xml',
-        'views/hop_dong_lao_dong.xml', 
-        'views/cham_cong.xml',
-        'views/bang_luong.xml',
+        'views/lich_su_cong_tac.xml',
         'views/menu.xml',
     ],
     # only loaded in demonstration mode

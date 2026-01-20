@@ -7,11 +7,10 @@
             <field name="arch" type="xml">
                 <form>
                     <sheet>
-                        <div class="oe_read_only" style="font-size:25px">Phòng Ban</div>
-                        <group col="3" string="Thông tin chung">
-                            <field name="ma_phong"/>
-                            <field name="ten_phong"/>
-                         <field name="nhan_vien_ids"/>
+                        <div class="oe_read_only" style="font-size:25px">Đơn vị</div>
+                        <group col="4" string="Thông tin chung">
+                            <field name="ma_phong_ban"/>
+                            <field name="ten_phong_ban"/>
                         </group>
                     </sheet>
                 </form>
@@ -23,9 +22,8 @@
             <field name="model">phong_ban</field>
             <field name="arch" type="xml">
                 <tree>
-                            <field name="ma_phong"/>
-                            <field name="ten_phong"/>
-                        <field name="nhan_vien_ids"/>
+                    <field name="ma_phong_ban"/>
+                    <field name="ten_phong_ban"/>
                 </tree>
             </field>
         </record>
@@ -34,18 +32,17 @@
             <field name="model">phong_ban</field>
             <field name="arch" type="xml">
                 <search>
-                            <field name="ma_phong"/>
-                            <field name="ten_phong"/>
-                            <field name="nhan_vien_ids"/>
+                    <field name="ma_phong_ban"/>
+                    <field name="ten_phong_ban"/>
                 </search>
             </field>
         </record>
 
         <record id="action_phong_ban" model="ir.actions.act_window">
-            <field name="name">Phòng Ban</field>
+            <field name="name">Phòng ban</field>
             <field name="res_model">phong_ban</field>
             <field name="view_mode">tree,form</field>
-            <field name="search_view_id" ref = "phong_ban_search"/>
+            <field name="search_view_id" ref="phong_ban_search"/>
         </record>
     </data>
 </odoo>
