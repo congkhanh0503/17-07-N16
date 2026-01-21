@@ -31,13 +31,13 @@ Thay vì quản lý rời rạc bằng giấy tờ hoặc các file độc lập
 
 Các chức năng chính của hệ thống:
 
-    - Quản lý Văn bản: Phân loại tài liệu (Hợp đồng, Báo cáo), theo dõi luồng công văn đến/đi và trạng thái lưu trữ.
+ - Quản lý Văn bản: Phân loại tài liệu (Hợp đồng, Báo cáo), theo dõi luồng công văn đến/đi và trạng thái lưu trữ.
 
-    - Quản lý Khách hàng (CRM): Lưu trữ thông tin đối tác, lịch sử giao dịch và các văn bản ký kết liên quan.
+ - Quản lý Khách hàng (CRM): Lưu trữ thông tin đối tác, lịch sử giao dịch và các văn bản ký kết liên quan.
 
-    - Quản lý Nhân sự: Điều phối nhân viên phụ trách từng đầu mục công việc và theo dõi tiến độ xử lý văn bản.
+ - Quản lý Nhân sự: Điều phối nhân viên phụ trách từng đầu mục công việc và theo dõi tiến độ xử lý văn bản.
 
-    - Trợ lý ảo AI: Tích hợp Chatbot Gemini hỗ trợ tìm kiếm văn bản nhanh và giải đáp nghiệp vụ.
+ - Trợ lý ảo AI: Tích hợp Chatbot Gemini hỗ trợ tìm kiếm văn bản nhanh và giải đáp nghiệp vụ.
 
 ---
 
