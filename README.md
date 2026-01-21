@@ -118,4 +118,14 @@ Vào chế độ Developer Mode và nhấn Upgrade.
 
 Cấu hình Gemini API Key trong phần cài đặt của trợ lý ảo.
 
+---
+
+### 5. Thành viên nhóm
+
+### 1. VŨ Đức Minh
+### 2. Phùng Xuân Đức
+### 3. Đỗ Quốc Việt
+
+---
+
 DNU AIoTLab - Kết nối tri thức, Kiến tạo tương lai.
