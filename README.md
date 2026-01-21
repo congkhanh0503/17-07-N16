@@ -47,12 +47,22 @@ Trợ lý ảo AI: Tích hợp Chatbot Gemini hỗ trợ tìm kiếm văn bản 
 
 <div align="center">
 
+### Hệ điều hành
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
-[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+---
+
+### Công nghệ chính
+![Odoo](https://img.shields.io/badge/Odoo-ERP-purple?style=for-the-badge&logo=odoo)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge)
+
+---
+
+### Cơ sở dữ liệu
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
 </div>
 
 ---
@@ -82,6 +92,7 @@ Clone project vào thư mục Odoo:
 ```bash
 cd ~/odoo-fitdnu/
 git clone https://github.com/MinnKaa/TTDN-16-02-N7.git
+```
 
 ---
 
