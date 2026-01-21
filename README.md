@@ -1,9 +1,33 @@
-<h2 align="center"> <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin"> 🎓 Khoa Công nghệ Thông tin (Đại học Đại Nam) </a> </h2> <h2 align="center"> Hệ thống Quản lý Văn bản - Khách hàng  </h2> <div align="center"> <p align="center"> <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/> <img src="docs/logo/fitdnu_logo.png" alt="FIT DNU Logo" width="180"/> <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/> </p>
+<h2 align="center">
+    <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
+        🎓 Khoa Công nghệ Thông tin (Đại học Đại Nam)
+    </a>
+</h2>
+
+<h2 align="center">
+    HỆ THỐNG QUẢN LÝ VĂN BẢN – KHÁCH HÀNG 
+</h2>
+
+<div align="center">
+    <p align="center">
+        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="docs/logo/fitdnu_logo.png" alt="FIT DNU Logo" width="180"/>
+        <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+    </p>
+
+[![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
+[![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
 
-📖 1. Giới thiệu
-Hệ thống được xây dựng trên nền tảng Odoo ERP nhằm tối ưu hóa quy trình quản lý văn bản, thông tin khách hàng và điều phối nhân sự trong tổ chức. Thay vì sử dụng các phương pháp lưu trữ rời rạc, hệ thống cung cấp một giải pháp tập trung, tích hợp trí tuệ nhân tạo (AI) để hỗ trợ truy vấn và xử lý dữ liệu thông minh.
+---
+
+## 📖 1. Giới thiệu
+
+Hệ thống Quản lý Văn bản – Khách hàng được xây dựng trên nền tảng Odoo ERP, nhằm tối ưu hóa công tác quản lý văn bản, thông tin khách hàng và điều phối nhân sự trong tổ chức.
+
+Thay vì quản lý rời rạc bằng giấy tờ hoặc các file độc lập, hệ thống cung cấp một giải pháp tập trung, hỗ trợ:
 
 Các chức năng chính của hệ thống:
 
@@ -17,8 +41,19 @@ Quản lý Nhân sự: Điều phối nhân viên phụ trách từng đầu m�
 
 Trợ lý ảo AI: Tích hợp Chatbot Gemini hỗ trợ tìm kiếm văn bản nhanh và giải đáp nghiệp vụ.
 
-🔧 2. Các công nghệ được sử dụng
+---
+
+## 🔧 2. Các công nghệ được sử dụng
+
 <div align="center">
+
+### Hệ điều hành
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+## 🔧 2. Các công nghệ được sử dụng
+
+<div align="center">
+
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -26,6 +61,7 @@ Trợ lý ảo AI: Tích hợp Chatbot Gemini hỗ trợ tìm kiếm văn bản 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 </div>
+---
 
 🚀 3. Hình ảnh các chức năng
 Giao diện quản lý nhân sự
@@ -45,6 +81,7 @@ Giao diện thêm khách hàng
 
 Giao diện AI hỗ  trợ tìm kiếm
 <img width="1902" height="931" alt="image" src="https://github.com/MinnKaa/TTDN-16-02-N7/tree/main/setup/anh6" />
+---
 ⚙️ 4. Cài đặt
 4.1. Cài đặt môi trường Docker
 Cài đặt Docker Desktop.
@@ -53,7 +90,7 @@ Cài đặt Docker Desktop.
 Clone project vào thư mục trong Odoo:
 
 cd ~/odoo-fitdnu/
-git clone https://github.com/MinnKaa/TTDN-16-02-N7
+git clone https://github.com/MinnKaa/TTDN-16-02-N7.git
 
 4.3. Cấu hình Database & API
 Khởi động hệ thống: docker restart odoo_odoo-base.
