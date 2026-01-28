@@ -126,7 +126,7 @@ Cấu hình Gemini API Key trong phần cài đặt của trợ lý ảo.
 
 ---
 
-## Tài liệu tham khảo
+## Nguồn tham khảo
 [1] yukiharadev, **TTDN-15-05-N2**, GitHub.  
 https://github.com/yukiharadev/TTDN-15-05-N2 
 
