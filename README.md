@@ -118,11 +118,17 @@ Cấu hình Gemini API Key trong phần cài đặt của trợ lý ảo.
 
 ---
 
-### 5. Thành viên nhóm
+## 5. Thành viên nhóm
 
 1. Vũ Đức Minh
 2. Phùng Xuân Đức
 3. Đỗ Quốc Việt
+
+---
+
+## Tài liệu tham khảo
+[1] yukiharadev, **TTDN-15-05-N2**, GitHub.  
+https://github.com/yukiharadev/TTDN-15-05-N2 
 
 ---
 
