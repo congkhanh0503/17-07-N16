@@ -120,10 +120,8 @@ Cấu hình Gemini API Key trong phần cài đặt của trợ lý ảo.
 
 ## 5. Thành viên nhóm
 
-1. Vũ Đức Minh
-2. Phùng Xuân Đức
-3. Đỗ Quốc Việt
-
+1. Nguyễn Công Khánh
+2. Nguyễn Văn Tiến
 ---
 
 ## Nguồn tham khảo
