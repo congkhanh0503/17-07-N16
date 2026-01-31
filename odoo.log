@@ -1,0 +1,725 @@
+nohup: ignoring input
+2026-01-30 18:45:23,893 6390 INFO ? odoo: Odoo version 15.0 
+2026-01-30 18:45:23,893 6390 INFO ? odoo: Using configuration file at /home/khanh/TTDN-16-02-N7/odoo.conf 
+2026-01-30 18:45:23,893 6390 INFO ? odoo: addons paths: ['/home/khanh/TTDN-16-02-N7/odoo/addons', '/home/khanh/.local/share/Odoo/addons/15.0', '/home/khanh/TTDN-16-02-N7/addons'] 
+2026-01-30 18:45:23,893 6390 INFO ? odoo: database: odoo@localhost:5431 
+2026-01-30 18:45:24,112 6390 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-01-30 18:45:24,280 6390 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-CC636K76.localdomain:8069 
+2026-01-30 18:45:31,383 6390 INFO ? odoo.http: HTTP Configuring static files 
+2026-01-30 18:45:31,399 6390 INFO bai1 odoo.modules.loading: loading 1 modules... 
+2026-01-30 18:45:31,403 6390 INFO bai1 odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-01-30 18:45:31,411 6390 INFO bai1 odoo.modules.loading: loading 26 modules... 
+2026-01-30 18:45:31,864 6390 INFO bai1 odoo.modules.loading: 26 modules loaded in 0.45s, 0 queries (+0 extra) 
+2026-01-30 18:45:31,901 6390 INFO bai1 odoo.modules.loading: Modules loaded. 
+2026-01-30 18:45:31,903 6390 INFO bai1 odoo.modules.registry: Registry loaded in 0.517s 
+2026-01-30 18:45:31,905 6390 INFO bai1 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-01-30 18:45:32,017 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:32] "[32mGET / HTTP/1.1[0m" 303 - 16 0.017 0.615
+2026-01-30 18:45:32,030 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:32] "[32mGET /web HTTP/1.1[0m" 303 - 1 0.001 0.006
+2026-01-30 18:45:32,256 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:32] "GET /web/login HTTP/1.1" 200 - 87 0.079 0.141
+2026-01-30 18:45:32,703 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:32] "GET /web/webclient/translations/1769798732389 HTTP/1.1" 200 - 4 0.005 0.004
+2026-01-30 18:45:32,976 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:32] "GET /web/webclient/qweb/1769798732713?bundle=web.assets_frontend HTTP/1.1" 200 - 10 0.006 0.016
+2026-01-30 18:45:33,021 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:33] "GET /web/webclient/translations/1769798732986 HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-30 18:45:41,012 6390 INFO bai1 odoo.addons.base.models.res_users: Login failed for db:bai1 login:admin from 127.0.0.1 
+2026-01-30 18:45:41,018 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:41] "POST /web/login HTTP/1.1" 200 - 9 0.011 0.014
+2026-01-30 18:45:41,320 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:41] "GET /web/webclient/translations/1769798741100 HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-30 18:45:41,645 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:41] "GET /web/webclient/qweb/1769798741324?bundle=web.assets_frontend HTTP/1.1" 200 - 10 0.005 0.009
+2026-01-30 18:45:41,896 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:41] "GET /web/webclient/translations/1769798741649 HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:45:43,646 6390 INFO bai1 odoo.sql_db: ConnectionPool(used=2/count=5/max=64): Closed 1 connections to 'user=odoo password=xxx dbname=mydb host=localhost port=5431 sslmode=prefer' 
+2026-01-30 18:45:43,661 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:45:43] "GET /web/database/manager HTTP/1.1" 200 - 7 0.009 0.358
+2026-01-30 18:46:04,189 6390 INFO None odoo.service.db: Create database `baitapbig`. 
+2026-01-30 18:46:04,640 6390 WARNING None odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:46:04,780 6390 WARNING None odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:46:04,931 6390 WARNING None odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:46:05,433 6390 INFO baitapbig odoo.modules.loading: loading 1 modules... 
+2026-01-30 18:46:05,433 6390 INFO baitapbig odoo.modules.loading: Loading module base (1/1) 
+2026-01-30 18:46:05,447 6390 INFO baitapbig odoo.modules.registry: module base: creating or updating database tables 
+2026-01-30 18:46:06,555 6390 INFO baitapbig odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2026-01-30 18:46:06,556 6390 INFO baitapbig odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2026-01-30 18:46:06,556 6390 INFO baitapbig odoo.models: Storing computed values of ir.module.module.views_by_module 
+2026-01-30 18:46:06,558 6390 INFO baitapbig odoo.models: Storing computed values of res.partner.display_name 
+2026-01-30 18:46:06,558 6390 INFO baitapbig odoo.models: Storing computed values of res.partner.partner_share 
+2026-01-30 18:46:06,558 6390 INFO baitapbig odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2026-01-30 18:46:06,558 6390 INFO baitapbig odoo.models: Storing computed values of res.partner.commercial_company_name 
+2026-01-30 18:46:06,559 6390 INFO baitapbig odoo.models: Storing computed values of res.currency.decimal_places 
+2026-01-30 18:46:06,562 6390 INFO baitapbig odoo.models: Storing computed values of res.company.logo_web 
+2026-01-30 18:46:06,562 6390 INFO baitapbig odoo.models: Storing computed values of res.company.company_registry 
+2026-01-30 18:46:06,566 6390 INFO baitapbig odoo.models: Storing computed values of res.users.share 
+2026-01-30 18:46:07,855 6390 INFO baitapbig odoo.modules.loading: loading base/data/res_bank.xml 
+2026-01-30 18:46:07,861 6390 INFO baitapbig odoo.modules.loading: loading base/data/res.lang.csv 
+2026-01-30 18:46:07,919 6390 INFO bai1 odoo.modules.loading: loading base/data/res_lang_data.xml 
+2026-01-30 18:46:07,941 6390 INFO baitapbig odoo.modules.loading: loading base/data/res_partner_data.xml 
+2026-01-30 18:46:08,003 6390 INFO baitapbig odoo.modules.loading: loading base/data/res_currency_data.xml 
+2026-01-30 18:46:08,433 6390 INFO baitapbig odoo.modules.loading: loading base/data/res_company_data.xml 
+2026-01-30 18:46:08,447 6390 INFO baitapbig odoo.modules.loading: loading base/data/res_users_data.xml 
+2026-01-30 18:46:09,106 6390 INFO baitapbig odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2026-01-30 18:46:09,116 6390 INFO baitapbig odoo.modules.loading: loading base/data/res_country_data.xml 
+2026-01-30 18:46:09,553 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2026-01-30 18:46:09,563 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2026-01-30 18:46:09,571 6390 INFO baitapbig odoo.modules.loading: loading base/security/base_groups.xml 
+2026-01-30 18:46:09,684 6390 INFO baitapbig odoo.modules.loading: loading base/security/base_security.xml 
+2026-01-30 18:46:09,880 6390 INFO baitapbig odoo.modules.loading: loading base/views/base_menus.xml 
+2026-01-30 18:46:09,972 6390 INFO baitapbig odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2026-01-30 18:46:09,988 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_config_views.xml 
+2026-01-30 18:46:09,997 6390 INFO baitapbig odoo.modules.loading: loading base/data/res.country.state.csv 
+2026-01-30 18:46:10,799 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2026-01-30 18:46:10,905 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2026-01-30 18:46:10,926 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2026-01-30 18:46:10,944 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2026-01-30 18:46:10,971 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2026-01-30 18:46:10,988 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2026-01-30 18:46:11,006 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2026-01-30 18:46:11,026 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_model_views.xml 
+2026-01-30 18:46:11,170 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2026-01-30 18:46:11,192 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2026-01-30 18:46:11,218 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2026-01-30 18:46:11,238 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2026-01-30 18:46:11,266 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2026-01-30 18:46:11,286 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2026-01-30 18:46:11,332 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_default_views.xml 
+2026-01-30 18:46:11,352 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2026-01-30 18:46:11,359 6390 INFO baitapbig odoo.modules.loading: loading base/report/ir_model_report.xml 
+2026-01-30 18:46:11,364 6390 INFO baitapbig odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2026-01-30 18:46:11,368 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2026-01-30 18:46:11,385 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2026-01-30 18:46:11,393 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_module_views.xml 
+2026-01-30 18:46:11,456 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2026-01-30 18:46:11,537 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_module_module.xml 
+2026-01-30 18:46:11,595 6390 INFO baitapbig odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2026-01-30 18:46:11,598 6390 INFO baitapbig odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2026-01-30 18:46:11,602 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2026-01-30 18:46:11,615 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2026-01-30 18:46:11,621 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2026-01-30 18:46:11,633 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2026-01-30 18:46:11,650 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2026-01-30 18:46:11,656 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2026-01-30 18:46:11,667 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2026-01-30 18:46:11,680 6390 INFO baitapbig odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2026-01-30 18:46:11,692 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2026-01-30 18:46:11,696 6390 INFO baitapbig odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2026-01-30 18:46:11,706 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2026-01-30 18:46:11,728 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_company_views.xml 
+2026-01-30 18:46:11,747 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_lang_views.xml 
+2026-01-30 18:46:11,768 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_partner_views.xml 
+2026-01-30 18:46:11,877 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_bank_views.xml 
+2026-01-30 18:46:11,908 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_country_views.xml 
+2026-01-30 18:46:11,944 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_currency_views.xml 
+2026-01-30 18:46:11,977 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_users_views.xml 
+2026-01-30 18:46:12,075 6390 INFO baitapbig odoo.modules.loading: loading base/views/ir_property_views.xml 
+2026-01-30 18:46:12,095 6390 INFO baitapbig odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2026-01-30 18:46:12,102 6390 INFO baitapbig odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2026-01-30 18:46:12,128 6390 INFO baitapbig odoo.modules.loading: loading base/views/onboarding_views.xml 
+2026-01-30 18:46:12,153 6390 INFO baitapbig odoo.modules.loading: loading base/security/ir.model.access.csv 
+2026-01-30 18:46:12,292 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:12,292 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/odoo/addons/base/i18n/vi.po 
+2026-01-30 18:46:12,817 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base: no translation for language vi_VN 
+2026-01-30 18:46:12,859 6390 INFO baitapbig odoo.modules.loading: Module base loaded in 7.43s, 9682 queries 
+2026-01-30 18:46:12,859 6390 INFO baitapbig odoo.modules.loading: 1 modules loaded in 7.43s, 9682 queries (+0 extra) 
+2026-01-30 18:46:12,885 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:12,885 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/odoo/addons/base/i18n/vi.po 
+2026-01-30 18:46:13,261 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base: no translation for language vi_VN 
+2026-01-30 18:46:13,282 6390 INFO baitapbig odoo.modules.loading: updating modules list 
+2026-01-30 18:46:13,283 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-01-30 18:46:13,336 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:46:13,411 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:46:13,498 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:46:13,809 6390 INFO baitapbig odoo.modules.loading: loading 7 modules... 
+2026-01-30 18:46:13,809 6390 INFO baitapbig odoo.modules.loading: Loading module web (2/7) 
+2026-01-30 18:46:13,828 6390 INFO baitapbig odoo.modules.registry: module web: creating or updating database tables 
+2026-01-30 18:46:14,338 6390 INFO baitapbig odoo.modules.loading: loading web/security/ir.model.access.csv 
+2026-01-30 18:46:14,347 6390 INFO baitapbig odoo.modules.loading: loading web/views/webclient_templates.xml 
+2026-01-30 18:46:14,405 6390 INFO baitapbig odoo.modules.loading: loading web/views/report_templates.xml 
+2026-01-30 18:46:14,484 6390 INFO baitapbig odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2026-01-30 18:46:14,495 6390 INFO baitapbig odoo.modules.loading: loading web/views/speedscope_template.xml 
+2026-01-30 18:46:14,500 6390 INFO baitapbig odoo.modules.loading: loading web/views/lazy_assets.xml 
+2026-01-30 18:46:14,507 6390 INFO baitapbig odoo.modules.loading: loading web/data/report_layout.xml 
+2026-01-30 18:46:14,544 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:14,544 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web/i18n/vi.po 
+2026-01-30 18:46:14,609 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web: no translation for language vi_VN 
+2026-01-30 18:46:14,626 6390 INFO baitapbig odoo.modules.loading: Module web loaded in 0.82s, 892 queries 
+2026-01-30 18:46:14,627 6390 INFO baitapbig odoo.modules.loading: Loading module auth_totp (3/7) 
+2026-01-30 18:46:14,644 6390 INFO baitapbig odoo.modules.registry: module auth_totp: creating or updating database tables 
+2026-01-30 18:46:14,753 6390 INFO baitapbig odoo.modules.loading: loading auth_totp/security/security.xml 
+2026-01-30 18:46:14,788 6390 INFO baitapbig odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2026-01-30 18:46:14,797 6390 INFO baitapbig odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2026-01-30 18:46:14,804 6390 INFO baitapbig odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2026-01-30 18:46:14,826 6390 INFO baitapbig odoo.modules.loading: loading auth_totp/views/templates.xml 
+2026-01-30 18:46:14,831 6390 INFO baitapbig odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2026-01-30 18:46:14,841 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_totp: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:14,841 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/auth_totp/i18n/vi.po 
+2026-01-30 18:46:14,853 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_totp: no translation for language vi_VN 
+2026-01-30 18:46:14,862 6390 INFO baitapbig odoo.modules.loading: Module auth_totp loaded in 0.24s, 194 queries 
+2026-01-30 18:46:14,862 6390 INFO baitapbig odoo.modules.loading: Loading module base_import (4/7) 
+2026-01-30 18:46:14,885 6390 INFO baitapbig odoo.modules.registry: module base_import: creating or updating database tables 
+2026-01-30 18:46:15,695 6390 INFO baitapbig odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2026-01-30 18:46:15,726 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base_import: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:15,726 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/base_import/i18n/vi.po 
+2026-01-30 18:46:15,755 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base_import: no translation for language vi_VN 
+2026-01-30 18:46:15,764 6390 INFO baitapbig odoo.modules.loading: Module base_import loaded in 0.90s, 925 queries 
+2026-01-30 18:46:15,765 6390 INFO baitapbig odoo.modules.loading: Loading module web_editor (5/7) 
+2026-01-30 18:46:15,787 6390 INFO baitapbig odoo.modules.registry: module web_editor: creating or updating database tables 
+2026-01-30 18:46:15,923 6390 INFO baitapbig odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2026-01-30 18:46:15,934 6390 INFO baitapbig odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2026-01-30 18:46:15,940 6390 INFO baitapbig odoo.modules.loading: loading web_editor/views/editor.xml 
+2026-01-30 18:46:15,968 6390 INFO baitapbig odoo.modules.loading: loading web_editor/views/snippets.xml 
+2026-01-30 18:46:16,008 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_editor: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,008 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_editor/i18n/vi.po 
+2026-01-30 18:46:16,058 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_editor: no translation for language vi_VN 
+2026-01-30 18:46:16,072 6390 INFO baitapbig odoo.modules.loading: Module web_editor loaded in 0.31s, 249 queries 
+2026-01-30 18:46:16,072 6390 INFO baitapbig odoo.modules.loading: Loading module web_kanban_gauge (6/7) 
+2026-01-30 18:46:16,101 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,101 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_kanban_gauge/i18n/vi.po 
+2026-01-30 18:46:16,108 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_kanban_gauge: no translation for language vi_VN 
+2026-01-30 18:46:16,120 6390 INFO baitapbig odoo.modules.loading: Module web_kanban_gauge loaded in 0.05s, 25 queries 
+2026-01-30 18:46:16,120 6390 INFO baitapbig odoo.modules.loading: Loading module web_tour (7/7) 
+2026-01-30 18:46:16,140 6390 INFO baitapbig odoo.modules.registry: module web_tour: creating or updating database tables 
+2026-01-30 18:46:16,178 6390 INFO baitapbig odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2026-01-30 18:46:16,186 6390 INFO baitapbig odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2026-01-30 18:46:16,196 6390 INFO baitapbig odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2026-01-30 18:46:16,221 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_tour: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,221 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_tour/i18n/vi.po 
+2026-01-30 18:46:16,230 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_tour: no translation for language vi_VN 
+2026-01-30 18:46:16,243 6390 INFO baitapbig odoo.modules.loading: Module web_tour loaded in 0.12s, 118 queries 
+2026-01-30 18:46:16,243 6390 INFO baitapbig odoo.modules.loading: 7 modules loaded in 2.43s, 2403 queries (+0 extra) 
+2026-01-30 18:46:16,473 6390 INFO baitapbig odoo.modules.loading: Modules loaded. 
+2026-01-30 18:46:16,476 6390 INFO baitapbig odoo.modules.registry: Registry loaded in 11.051s 
+2026-01-30 18:46:16,480 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,480 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/odoo/addons/base/i18n/vi.po 
+2026-01-30 18:46:16,848 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base: no translation for language vi_VN 
+2026-01-30 18:46:16,848 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,848 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web/i18n/vi.po 
+2026-01-30 18:46:16,895 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web: no translation for language vi_VN 
+2026-01-30 18:46:16,895 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_totp: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,895 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/auth_totp/i18n/vi.po 
+2026-01-30 18:46:16,905 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_totp: no translation for language vi_VN 
+2026-01-30 18:46:16,905 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base_import: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,905 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/base_import/i18n/vi.po 
+2026-01-30 18:46:16,924 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base_import: no translation for language vi_VN 
+2026-01-30 18:46:16,924 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_editor: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,924 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_editor/i18n/vi.po 
+2026-01-30 18:46:16,954 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_editor: no translation for language vi_VN 
+2026-01-30 18:46:16,954 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_kanban_gauge: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,954 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_kanban_gauge/i18n/vi.po 
+2026-01-30 18:46:16,959 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_kanban_gauge: no translation for language vi_VN 
+2026-01-30 18:46:16,960 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_tour: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:16,960 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_tour/i18n/vi.po 
+2026-01-30 18:46:16,966 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_tour: no translation for language vi_VN 
+2026-01-30 18:46:17,678 6390 INFO baitapbig odoo.addons.base.models.res_users: Login successful for db:baitapbig login:admin from 127.0.0.1 
+2026-01-30 18:46:17,690 6390 INFO bai1 werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:17] "[32mPOST /web/database/create HTTP/1.1[0m" 303 - 16559 9.338 5.434
+2026-01-30 18:46:17,696 6390 INFO baitapbig odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-01-30 18:46:17,755 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:17] "[32mGET /web HTTP/1.1[0m" 303 - 2 0.002 0.059
+2026-01-30 18:46:18,818 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:18] "GET /web/login HTTP/1.1" 200 - 101 0.058 0.690
+2026-01-30 18:46:18,844 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:18] "GET /web/assets/13-d66f259/web.assets_common.min.css HTTP/1.1" 200 - 5 0.003 0.004
+2026-01-30 18:46:19,153 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:19] "GET /web/assets/14-c00e23a/web.assets_frontend.min.css HTTP/1.1" 200 - 3 0.001 0.004
+2026-01-30 18:46:19,164 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:19] "GET /web/assets/15-eb63092/web.assets_common_minimal.min.js HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-30 18:46:19,483 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:19] "GET /web/assets/16-0b63bc1/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-30 18:46:19,808 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:19] "GET /web/assets/17-bdb1c09/web.assets_common_lazy.min.js HTTP/1.1" 200 - 3 0.002 0.008
+2026-01-30 18:46:20,071 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:20] "GET /web/assets/18-d9f6fb3/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-30 18:46:20,182 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:20] "GET /web/webclient/translations/1769798780073 HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-30 18:46:20,416 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:20] "GET /web/webclient/qweb/1769798780169?bundle=web.assets_frontend HTTP/1.1" 200 - 10 0.003 0.007
+2026-01-30 18:46:20,503 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:20] "GET /web/webclient/translations/1769798780404 HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:46:24,192 6390 INFO baitapbig odoo.addons.base.models.res_users: Login successful for db:baitapbig login:admin from 127.0.0.1 
+2026-01-30 18:46:24,197 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:24] "[32mPOST /web/login HTTP/1.1[0m" 303 - 31 0.027 0.371
+2026-01-30 18:46:24,243 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2026-01-30 18:46:24,260 6390 INFO baitapbig odoo.addons.base.models.ir_attachment: filestore gc 16 checked, 0 removed 
+2026-01-30 18:46:24,286 6390 INFO baitapbig odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2026-01-30 18:46:24,315 6390 INFO baitapbig odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2026-01-30 18:46:24,322 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2026-01-30 18:46:24,340 6390 INFO bai1 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2026-01-30 18:46:24,349 6390 INFO bai1 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2026-01-30 18:46:24,362 6390 INFO bai1 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2026-01-30 18:46:24,368 6390 INFO bai1 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2026-01-30 18:46:24,377 6390 INFO bai1 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2026-01-30 18:46:24,386 6390 INFO bai1 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2026-01-30 18:46:24,394 6390 INFO bai1 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2026-01-30 18:46:24,398 6390 INFO bai1 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2026-01-30 18:46:25,419 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:25] "GET /web HTTP/1.1" 200 - 171 0.134 1.084
+2026-01-30 18:46:25,768 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:25] "GET /web/assets/19-484d0c0/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.003 0.017
+2026-01-30 18:46:25,769 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:25] "GET /web/assets/20-d66f259/web.assets_common.min.js HTTP/1.1" 200 - 2 0.003 0.016
+2026-01-30 18:46:25,769 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:25] "GET /web/assets/22-8ec05ff/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.002 0.016
+2026-01-30 18:46:25,770 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:25] "GET /web/assets/21-484d0c0/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.004 0.015
+2026-01-30 18:46:26,043 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:26] "POST /web/action/load HTTP/1.1" 200 - 28 0.021 0.010
+2026-01-30 18:46:26,259 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 7 0.006 0.005
+2026-01-30 18:46:26,315 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:26] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 58 0.046 0.023
+2026-01-30 18:46:26,390 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 45 0.024 0.009
+2026-01-30 18:46:26,644 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-30 18:46:37,040 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.021 0.010
+2026-01-30 18:46:37,325 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:46:39,016 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.005
+2026-01-30 18:46:39,043 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.024 0.011
+2026-01-30 18:46:40,140 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user admin #2 via 127.0.0.1 
+2026-01-30 18:46:40,140 6390 INFO baitapbig odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-01-30 18:46:40,142 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user admin #2 via 127.0.0.1 
+2026-01-30 18:46:40,229 6390 INFO baitapbig odoo.modules.loading: loading 1 modules... 
+2026-01-30 18:46:40,233 6390 INFO baitapbig odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-01-30 18:46:40,246 6390 INFO baitapbig odoo.modules.loading: updating modules list 
+2026-01-30 18:46:40,247 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-01-30 18:46:40,307 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:46:40,382 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:46:40,470 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:46:40,778 6390 INFO baitapbig odoo.modules.loading: loading 7 modules... 
+2026-01-30 18:46:40,782 6390 INFO baitapbig odoo.modules.loading: 7 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-01-30 18:46:40,786 6390 INFO baitapbig odoo.modules.loading: loading 22 modules... 
+2026-01-30 18:46:40,786 6390 INFO baitapbig odoo.modules.loading: Loading module base_setup (5/22) 
+2026-01-30 18:46:40,810 6390 INFO baitapbig odoo.modules.registry: module base_setup: creating or updating database tables 
+2026-01-30 18:46:40,872 6390 INFO baitapbig odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2026-01-30 18:46:40,879 6390 INFO baitapbig odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2026-01-30 18:46:40,917 6390 INFO baitapbig odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2026-01-30 18:46:40,929 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base_setup: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:40,929 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/base_setup/i18n/vi.po 
+2026-01-30 18:46:40,949 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module base_setup: no translation for language vi_VN 
+2026-01-30 18:46:40,960 6390 INFO baitapbig odoo.modules.loading: Module base_setup loaded in 0.17s, 176 queries 
+2026-01-30 18:46:40,960 6390 INFO baitapbig odoo.modules.loading: Loading module bus (6/22) 
+2026-01-30 18:46:40,980 6390 INFO baitapbig odoo.modules.registry: module bus: creating or updating database tables 
+2026-01-30 18:46:41,057 6390 INFO baitapbig odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2026-01-30 18:46:41,076 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module bus: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:41,076 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/bus/i18n/vi.po 
+2026-01-30 18:46:41,085 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module bus: no translation for language vi_VN 
+2026-01-30 18:46:41,094 6390 INFO baitapbig odoo.modules.loading: Module bus loaded in 0.13s, 115 queries 
+2026-01-30 18:46:41,094 6390 INFO baitapbig odoo.modules.loading: Loading module iap (10/22) 
+2026-01-30 18:46:41,114 6390 INFO baitapbig odoo.modules.registry: module iap: creating or updating database tables 
+2026-01-30 18:46:41,214 6390 INFO baitapbig odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2026-01-30 18:46:41,224 6390 INFO baitapbig odoo.modules.loading: loading iap/security/ir_rule.xml 
+2026-01-30 18:46:41,232 6390 INFO baitapbig odoo.modules.loading: loading iap/views/iap_views.xml 
+2026-01-30 18:46:41,255 6390 INFO baitapbig odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2026-01-30 18:46:41,274 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module iap: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:41,275 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/iap/i18n/vi.po 
+2026-01-30 18:46:41,284 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module iap: no translation for language vi_VN 
+2026-01-30 18:46:41,295 6390 INFO baitapbig odoo.modules.loading: Module iap loaded in 0.20s, 164 queries 
+2026-01-30 18:46:41,295 6390 INFO baitapbig odoo.modules.loading: Loading module mail (11/22) 
+2026-01-30 18:46:41,328 6390 INFO baitapbig odoo.modules.registry: module mail: creating or updating database tables 
+2026-01-30 18:46:42,351 6390 INFO baitapbig odoo.models: Storing computed values of res.partner.email_normalized 
+2026-01-30 18:46:43,080 6390 INFO baitapbig odoo.modules.loading: loading mail/data/mail_groups.xml 
+2026-01-30 18:46:43,129 6390 INFO baitapbig odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2026-01-30 18:46:43,135 6390 INFO baitapbig odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2026-01-30 18:46:43,150 6390 INFO baitapbig odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2026-01-30 18:46:43,163 6390 INFO baitapbig odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2026-01-30 18:46:43,176 6390 INFO baitapbig odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2026-01-30 18:46:43,185 6390 INFO baitapbig odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2026-01-30 18:46:43,190 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2026-01-30 18:46:43,201 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2026-01-30 18:46:43,212 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2026-01-30 18:46:43,224 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2026-01-30 18:46:43,252 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2026-01-30 18:46:43,270 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2026-01-30 18:46:43,281 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2026-01-30 18:46:43,294 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2026-01-30 18:46:43,304 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2026-01-30 18:46:43,319 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2026-01-30 18:46:43,345 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2026-01-30 18:46:43,356 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2026-01-30 18:46:43,403 6390 INFO baitapbig odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2026-01-30 18:46:43,425 6390 INFO baitapbig odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2026-01-30 18:46:43,444 6390 INFO baitapbig odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2026-01-30 18:46:43,453 6390 INFO baitapbig odoo.modules.loading: loading mail/data/mail_templates.xml 
+2026-01-30 18:46:43,491 6390 INFO baitapbig odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2026-01-30 18:46:43,517 6390 INFO baitapbig odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2026-01-30 18:46:43,535 6390 INFO baitapbig odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2026-01-30 18:46:43,559 6390 INFO baitapbig odoo.modules.loading: loading mail/security/mail_security.xml 
+2026-01-30 18:46:43,662 6390 INFO baitapbig odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2026-01-30 18:46:43,719 6390 INFO baitapbig odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2026-01-30 18:46:43,729 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2026-01-30 18:46:43,743 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2026-01-30 18:46:43,751 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2026-01-30 18:46:43,758 6390 INFO baitapbig odoo.modules.loading: loading mail/views/res_users_views.xml 
+2026-01-30 18:46:43,773 6390 INFO baitapbig odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2026-01-30 18:46:43,788 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2026-01-30 18:46:43,808 6390 INFO baitapbig odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2026-01-30 18:46:43,817 6390 INFO baitapbig odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2026-01-30 18:46:43,837 6390 INFO baitapbig odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2026-01-30 18:46:43,883 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2026-01-30 18:46:43,898 6390 INFO baitapbig odoo.modules.loading: loading mail/views/mail_menus.xml 
+2026-01-30 18:46:44,004 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module mail: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:44,005 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/mail/i18n/vi.po 
+2026-01-30 18:46:44,159 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module mail: no translation for language vi_VN 
+2026-01-30 18:46:44,185 6390 INFO baitapbig odoo.modules.loading: Module mail loaded in 2.89s, 3261 queries 
+2026-01-30 18:46:44,185 6390 INFO baitapbig odoo.modules.loading: Loading module web_unsplash (12/22) 
+2026-01-30 18:46:44,217 6390 INFO baitapbig odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2026-01-30 18:46:44,268 6390 INFO baitapbig odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2026-01-30 18:46:44,293 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_unsplash: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:44,294 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/web_unsplash/i18n/vi.po 
+2026-01-30 18:46:44,303 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module web_unsplash: no translation for language vi_VN 
+2026-01-30 18:46:44,312 6390 INFO baitapbig odoo.modules.loading: Module web_unsplash loaded in 0.13s, 97 queries 
+2026-01-30 18:46:44,312 6390 INFO baitapbig odoo.modules.loading: Loading module auth_signup (13/22) 
+2026-01-30 18:46:44,344 6390 INFO baitapbig odoo.modules.registry: module auth_signup: creating or updating database tables 
+2026-01-30 18:46:44,413 6390 INFO baitapbig odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2026-01-30 18:46:44,421 6390 INFO baitapbig odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2026-01-30 18:46:44,429 6390 INFO baitapbig odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2026-01-30 18:46:44,443 6390 INFO baitapbig odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2026-01-30 18:46:44,456 6390 INFO baitapbig odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2026-01-30 18:46:44,479 6390 INFO baitapbig odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2026-01-30 18:46:44,501 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_signup: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:44,501 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/auth_signup/i18n/vi.po 
+2026-01-30 18:46:44,518 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_signup: no translation for language vi_VN 
+2026-01-30 18:46:44,531 6390 INFO baitapbig odoo.modules.loading: Module auth_signup loaded in 0.22s, 198 queries 
+2026-01-30 18:46:44,532 6390 INFO baitapbig odoo.modules.loading: Loading module auth_totp_mail (14/22) 
+2026-01-30 18:46:44,563 6390 INFO baitapbig odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2026-01-30 18:46:44,590 6390 INFO baitapbig odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2026-01-30 18:46:44,651 6390 INFO baitapbig odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2026-01-30 18:46:44,657 6390 INFO baitapbig odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2026-01-30 18:46:44,679 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_totp_mail: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:44,679 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/auth_totp_mail/i18n/vi.po 
+2026-01-30 18:46:44,685 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module auth_totp_mail: no translation for language vi_VN 
+2026-01-30 18:46:44,695 6390 INFO baitapbig odoo.modules.loading: Module auth_totp_mail loaded in 0.16s, 103 queries 
+2026-01-30 18:46:44,695 6390 INFO baitapbig odoo.modules.loading: Loading module fetchmail (15/22) 
+2026-01-30 18:46:44,728 6390 INFO baitapbig odoo.modules.registry: module fetchmail: creating or updating database tables 
+2026-01-30 18:46:44,802 6390 INFO baitapbig odoo.modules.loading: loading fetchmail/data/fetchmail_data.xml 
+2026-01-30 18:46:44,812 6390 INFO baitapbig odoo.modules.loading: loading fetchmail/security/ir.model.access.csv 
+2026-01-30 18:46:44,825 6390 INFO baitapbig odoo.modules.loading: loading fetchmail/views/fetchmail_views.xml 
+2026-01-30 18:46:44,850 6390 INFO baitapbig odoo.modules.loading: loading fetchmail/views/mail_mail_views.xml 
+2026-01-30 18:46:44,862 6390 INFO baitapbig odoo.modules.loading: loading fetchmail/views/res_config_settings_views.xml 
+2026-01-30 18:46:44,880 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module fetchmail: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:44,880 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/fetchmail/i18n/vi.po 
+2026-01-30 18:46:44,893 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module fetchmail: no translation for language vi_VN 
+2026-01-30 18:46:44,904 6390 INFO baitapbig odoo.modules.loading: Module fetchmail loaded in 0.21s, 196 queries 
+2026-01-30 18:46:44,905 6390 INFO baitapbig odoo.modules.loading: Loading module iap_mail (16/22) 
+2026-01-30 18:46:44,940 6390 INFO baitapbig odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2026-01-30 18:46:44,960 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module iap_mail: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:44,960 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/iap_mail/i18n/vi.po 
+2026-01-30 18:46:44,966 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module iap_mail: no translation for language vi_VN 
+2026-01-30 18:46:44,974 6390 INFO baitapbig odoo.modules.loading: Module iap_mail loaded in 0.07s, 35 queries 
+2026-01-30 18:46:44,974 6390 INFO baitapbig odoo.modules.loading: Loading module mail_bot (17/22) 
+2026-01-30 18:46:45,008 6390 INFO baitapbig odoo.modules.registry: module mail_bot: creating or updating database tables 
+2026-01-30 18:46:45,081 6390 INFO baitapbig odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2026-01-30 18:46:45,103 6390 INFO baitapbig odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2026-01-30 18:46:45,111 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module mail_bot: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:45,111 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/mail_bot/i18n/vi.po 
+2026-01-30 18:46:45,120 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module mail_bot: no translation for language vi_VN 
+2026-01-30 18:46:45,131 6390 INFO baitapbig odoo.modules.loading: Module mail_bot loaded in 0.16s, 143 queries 
+2026-01-30 18:46:45,131 6390 INFO baitapbig odoo.modules.loading: Loading module muk_web_theme (18/22) 
+2026-01-30 18:46:45,163 6390 INFO baitapbig odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2026-01-30 18:46:45,242 6390 INFO baitapbig odoo.modules.loading: loading muk_web_theme/templates/webclient.xml 
+2026-01-30 18:46:45,251 6390 INFO baitapbig odoo.modules.loading: loading muk_web_theme/views/res_config_settings_view.xml 
+2026-01-30 18:46:45,265 6390 INFO baitapbig odoo.modules.loading: loading muk_web_theme/views/res_users.xml 
+2026-01-30 18:46:45,277 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module muk_web_theme: no translation for language vi_VN 
+2026-01-30 18:46:45,285 6390 INFO baitapbig odoo.modules.loading: Module muk_web_theme loaded in 0.15s, 145 queries 
+2026-01-30 18:46:45,285 6390 INFO baitapbig odoo.modules.loading: Loading module phone_validation (19/22) 
+2026-01-30 18:46:45,316 6390 INFO baitapbig odoo.modules.registry: module phone_validation: creating or updating database tables 
+2026-01-30 18:46:45,427 6390 INFO baitapbig odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2026-01-30 18:46:45,438 6390 INFO baitapbig odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2026-01-30 18:46:45,466 6390 INFO baitapbig odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2026-01-30 18:46:45,476 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module phone_validation: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:45,476 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/phone_validation/i18n/vi.po 
+2026-01-30 18:46:45,492 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module phone_validation: no translation for language vi_VN 
+2026-01-30 18:46:45,504 6390 INFO baitapbig odoo.modules.loading: Module phone_validation loaded in 0.22s, 190 queries 
+2026-01-30 18:46:45,504 6390 INFO baitapbig odoo.modules.loading: Loading module partner_autocomplete (20/22) 
+2026-01-30 18:46:45,539 6390 INFO baitapbig odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2026-01-30 18:46:45,689 6390 INFO baitapbig odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2026-01-30 18:46:45,701 6390 INFO baitapbig odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2026-01-30 18:46:45,717 6390 INFO baitapbig odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2026-01-30 18:46:45,726 6390 INFO baitapbig odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2026-01-30 18:46:45,737 6390 INFO baitapbig odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2026-01-30 18:46:45,748 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module partner_autocomplete: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:45,748 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/partner_autocomplete/i18n/vi.po 
+2026-01-30 18:46:45,756 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module partner_autocomplete: no translation for language vi_VN 
+2026-01-30 18:46:45,768 6390 INFO baitapbig odoo.modules.loading: Module partner_autocomplete loaded in 0.26s, 197 queries 
+2026-01-30 18:46:45,768 6390 INFO baitapbig odoo.modules.loading: Loading module sms (21/22) 
+2026-01-30 18:46:45,804 6390 INFO baitapbig odoo.modules.registry: module sms: creating or updating database tables 
+2026-01-30 18:46:45,996 6390 INFO baitapbig odoo.models: Storing computed values of res.partner.phone_sanitized 
+2026-01-30 18:46:46,145 6390 INFO baitapbig odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2026-01-30 18:46:46,156 6390 INFO baitapbig odoo.modules.loading: loading sms/wizard/sms_cancel_views.xml 
+2026-01-30 18:46:46,169 6390 INFO baitapbig odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2026-01-30 18:46:46,178 6390 INFO baitapbig odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2026-01-30 18:46:46,186 6390 INFO baitapbig odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2026-01-30 18:46:46,196 6390 INFO baitapbig odoo.modules.loading: loading sms/views/ir_actions_views.xml 
+2026-01-30 18:46:46,206 6390 INFO baitapbig odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2026-01-30 18:46:46,219 6390 INFO baitapbig odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2026-01-30 18:46:46,230 6390 INFO baitapbig odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2026-01-30 18:46:46,258 6390 INFO baitapbig odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2026-01-30 18:46:46,284 6390 INFO baitapbig odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2026-01-30 18:46:46,308 6390 INFO baitapbig odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2026-01-30 18:46:46,332 6390 INFO baitapbig odoo.modules.loading: loading sms/security/sms_security.xml 
+2026-01-30 18:46:46,347 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module sms: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:46,347 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/sms/i18n/vi.po 
+2026-01-30 18:46:46,385 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module sms: no translation for language vi_VN 
+2026-01-30 18:46:46,399 6390 INFO baitapbig odoo.modules.loading: Module sms loaded in 0.63s, 599 queries 
+2026-01-30 18:46:46,399 6390 INFO baitapbig odoo.modules.loading: Loading module snailmail (22/22) 
+2026-01-30 18:46:46,438 6390 INFO baitapbig odoo.modules.registry: module snailmail: creating or updating database tables 
+2026-01-30 18:46:46,699 6390 INFO baitapbig odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2026-01-30 18:46:46,709 6390 INFO baitapbig odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2026-01-30 18:46:46,723 6390 INFO baitapbig odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2026-01-30 18:46:46,741 6390 INFO baitapbig odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2026-01-30 18:46:46,747 6390 INFO baitapbig odoo.modules.loading: loading snailmail/wizard/snailmail_letter_cancel_views.xml 
+2026-01-30 18:46:46,756 6390 INFO baitapbig odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2026-01-30 18:46:46,767 6390 INFO baitapbig odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2026-01-30 18:46:46,774 6390 INFO baitapbig odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2026-01-30 18:46:46,794 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module snailmail: loading base translation file vi for language vi_VN 
+2026-01-30 18:46:46,794 6390 INFO baitapbig odoo.tools.translate: loading /home/khanh/TTDN-16-02-N7/addons/snailmail/i18n/vi.po 
+2026-01-30 18:46:46,818 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module snailmail: no translation for language vi_VN 
+2026-01-30 18:46:46,833 6390 INFO baitapbig odoo.modules.loading: Module snailmail loaded in 0.43s, 384 queries 
+2026-01-30 18:46:46,834 6390 INFO baitapbig odoo.modules.loading: 22 modules loaded in 6.05s, 6003 queries (+0 extra) 
+2026-01-30 18:46:47,118 6390 INFO baitapbig odoo.modules.loading: Modules loaded. 
+2026-01-30 18:46:47,122 6390 INFO baitapbig odoo.modules.registry: Registry loaded in 6.900s 
+2026-01-30 18:46:47,122 6390 INFO baitapbig odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-01-30 18:46:47,127 6390 INFO baitapbig odoo.modules.registry: Registry changed, signaling through the database 
+2026-01-30 18:46:47,129 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:47] "POST /web/dataset/call_button HTTP/1.1" 200 - 7532 4.965 2.032
+2026-01-30 18:46:47,452 6390 INFO baitapbig odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-01-30 18:46:49,179 6390 INFO baitapbig odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2026-01-30 18:46:49,180 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:49] "GET /web HTTP/1.1" 200 - 298 0.183 1.548
+2026-01-30 18:46:49,216 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:49] "GET /web/assets/30-d06f47b/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.004 0.007
+2026-01-30 18:46:49,218 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:49] "GET /web/assets/29-bf05d8e/web.assets_common.min.css HTTP/1.1" 200 - 4 0.009 0.006
+2026-01-30 18:46:49,528 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:49] "GET /web/assets/31-bf05d8e/web.assets_common.min.js HTTP/1.1" 200 - 2 0.002 0.016
+2026-01-30 18:46:49,528 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:49] "GET /web/assets/33-f76ee99/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.006 0.010
+2026-01-30 18:46:49,529 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:49] "GET /web/assets/32-d06f47b/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.002 0.016
+2026-01-30 18:46:49,991 6390 INFO baitapbig odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2026-01-30 18:46:50,002 6390 INFO baitapbig odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2026-01-30 18:46:50,003 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 16 0.015 0.010
+2026-01-30 18:46:50,053 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.004 0.007
+2026-01-30 18:46:50,062 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /web/action/load HTTP/1.1" 200 - 10 0.011 0.006
+2026-01-30 18:46:50,068 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /longpolling/poll HTTP/1.1" 200 - 17 0.015 0.011
+2026-01-30 18:46:50,077 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "[36mGET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1[0m" 304 - 20 0.021 0.011
+2026-01-30 18:46:50,258 6390 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-01-30 18:46:50,454 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.039 0.017
+2026-01-30 18:46:50,470 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:46:50,779 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.005
+2026-01-30 18:46:50,786 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.007 0.004
+2026-01-30 18:46:50,798 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "GET /web/image/mail.channel/1/avatar_128?unique=a1054395ba1625accf3bfce8163182336f068adac26db58eae318357a62301fbde7a222da9920a3d3c01190daed52c21e167650406f2bf8bd7beeaa9a1afcd66 HTTP/1.1" 200 - 10 0.009 0.006
+2026-01-30 18:46:50,856 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /longpolling/poll HTTP/1.1" 200 - 14 0.010 0.601
+2026-01-30 18:46:50,857 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:50] "POST /web/dataset/call_kw/mail.channel/init_odoobot HTTP/1.1" 200 - 68 0.048 0.035
+2026-01-30 18:46:51,186 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:51] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.005 0.006
+2026-01-30 18:46:51,960 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:51] "POST /web/action/load HTTP/1.1" 200 - 27 0.021 0.012
+2026-01-30 18:46:52,304 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:52] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 19 0.017 0.018
+2026-01-30 18:46:52,659 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:52] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 50 0.019 0.011
+2026-01-30 18:46:53,008 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:53] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.003
+2026-01-30 18:46:53,009 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:53] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.002 0.003
+2026-01-30 18:46:56,707 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:56] "GET /web?debug=1 HTTP/1.1" 200 - 231 0.124 0.115
+2026-01-30 18:46:57,047 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "GET /web/webclient/load_menus/e8d33d0459dd3d2335095e1d765ad1c61031930f1c89fc5dad772c73876ce149 HTTP/1.1" 200 - 1 0.001 0.004
+2026-01-30 18:46:57,262 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "POST /mail/init_messaging HTTP/1.1" 200 - 35 0.022 0.010
+2026-01-30 18:46:57,315 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-30 18:46:57,401 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.006
+2026-01-30 18:46:57,403 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2026-01-30 18:46:57,406 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "POST /web/action/load HTTP/1.1" 200 - 8 0.008 0.008
+2026-01-30 18:46:57,583 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.003 0.003
+2026-01-30 18:46:57,725 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.004 0.006
+2026-01-30 18:46:57,754 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:57] "[36mGET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1[0m" 304 - 5 0.003 0.004
+2026-01-30 18:46:58,623 6390 INFO ? werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:58] "GET /web_tour/static/src/xml/tip.xml?debug=1769798818313 HTTP/1.1" 200 - - - -
+2026-01-30 18:46:59,238 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:59] "POST /web/action/load HTTP/1.1" 200 - 28 0.016 0.010
+2026-01-30 18:46:59,604 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:59] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 54 0.032 0.018
+2026-01-30 18:46:59,952 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:46:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 46 0.019 0.008
+2026-01-30 18:47:00,274 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:47:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.005
+2026-01-30 18:47:24,402 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2026-01-30 18:47:24,410 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2026-01-30 18:47:24,417 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2026-01-30 18:47:24,421 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2026-01-30 18:47:24,428 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2026-01-30 18:47:24,432 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2026-01-30 18:47:24,438 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2026-01-30 18:47:24,442 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2026-01-30 18:47:24,447 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2026-01-30 18:47:24,450 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2026-01-30 18:47:24,456 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2026-01-30 18:47:24,459 6390 INFO baitapbig odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2026-01-30 18:47:41,121 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:47:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.939
+2026-01-30 18:47:47,340 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:47:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 49.942
+2026-01-30 18:47:47,930 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:47:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:48:22,112 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:22] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.006
+2026-01-30 18:48:22,135 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.024 0.011
+2026-01-30 18:48:24,666 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.028 0.009
+2026-01-30 18:48:24,993 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:24] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.003
+2026-01-30 18:48:28,327 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['quan_ly_khach_hang'] to user admin #2 via 127.0.0.1 
+2026-01-30 18:48:28,327 6390 INFO baitapbig odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-01-30 18:48:28,328 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['quan_ly_khach_hang'] to user admin #2 via 127.0.0.1 
+2026-01-30 18:48:28,337 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:48:28,340 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:48:28,430 6390 INFO baitapbig odoo.modules.loading: loading 1 modules... 
+2026-01-30 18:48:28,434 6390 INFO baitapbig odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-01-30 18:48:28,445 6390 INFO baitapbig odoo.modules.loading: updating modules list 
+2026-01-30 18:48:28,446 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-01-30 18:48:28,504 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:48:28,583 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:48:28,682 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:48:29,008 6390 INFO baitapbig odoo.modules.loading: loading 22 modules... 
+2026-01-30 18:48:29,016 6390 INFO baitapbig odoo.modules.loading: 22 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-01-30 18:48:29,017 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:48:29,017 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:48:29,018 6390 INFO baitapbig odoo.modules.loading: loading 24 modules... 
+2026-01-30 18:48:29,018 6390 INFO baitapbig odoo.modules.loading: Loading module nhan_su (19/24) 
+2026-01-30 18:48:29,055 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:48:29,074 6390 INFO baitapbig odoo.modules.registry: module nhan_su: creating or updating database tables 
+2026-01-30 18:48:29,253 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/security/ir.model.access.csv 
+2026-01-30 18:48:29,274 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/views/nhan_vien.xml 
+2026-01-30 18:48:29,293 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/views/phong_ban.xml 
+2026-01-30 18:48:29,310 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/views/chuc_vu.xml 
+2026-01-30 18:48:29,326 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/views/chung_chi.xml 
+2026-01-30 18:48:29,342 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/views/lich_su_cong_tac.xml 
+2026-01-30 18:48:29,358 6390 INFO baitapbig odoo.modules.loading: loading nhan_su/views/menu.xml 
+2026-01-30 18:48:29,393 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module nhan_su: no translation for language vi_VN 
+2026-01-30 18:48:29,405 6390 INFO baitapbig odoo.modules.loading: Module nhan_su loaded in 0.39s, 340 queries 
+2026-01-30 18:48:29,405 6390 INFO baitapbig odoo.modules.loading: Loading module quan_ly_khach_hang (22/24) 
+2026-01-30 18:48:29,436 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:48:29,455 6390 INFO baitapbig odoo.modules.registry: module quan_ly_khach_hang: creating or updating database tables 
+2026-01-30 18:48:29,683 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/security/ir.model.access.csv 
+2026-01-30 18:48:29,700 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/khach_hang.xml 
+2026-01-30 18:48:29,716 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/ho_tro_khach_hang.xml 
+2026-01-30 18:48:29,734 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/khach_hang_tiem_nang.xml 
+2026-01-30 18:48:29,749 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/hoat_dong.xml 
+2026-01-30 18:48:29,766 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/hop_dong.xml 
+2026-01-30 18:48:29,781 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/phan_cong_cong_viec.xml 
+2026-01-30 18:48:29,799 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/danh_gia_nhan_vien.xml 
+2026-01-30 18:48:29,816 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_khach_hang/views/menu.xml 
+2026-01-30 18:48:29,860 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module quan_ly_khach_hang: no translation for language vi_VN 
+2026-01-30 18:48:29,871 6390 INFO baitapbig odoo.modules.loading: Module quan_ly_khach_hang loaded in 0.47s, 420 queries 
+2026-01-30 18:48:29,871 6390 INFO baitapbig odoo.modules.loading: 24 modules loaded in 0.85s, 760 queries (+0 extra) 
+2026-01-30 18:48:30,143 6390 INFO baitapbig odoo.modules.loading: Modules loaded. 
+2026-01-30 18:48:30,147 6390 INFO baitapbig odoo.modules.registry: Registry loaded in 1.724s 
+2026-01-30 18:48:30,147 6390 INFO baitapbig odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-01-30 18:48:30,150 6390 INFO baitapbig odoo.modules.registry: Registry changed, signaling through the database 
+2026-01-30 18:48:30,152 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:30] "POST /web/dataset/call_button HTTP/1.1" 200 - 2258 1.241 0.589
+2026-01-30 18:48:30,473 6390 INFO baitapbig odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-01-30 18:48:30,809 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:30] "GET /web HTTP/1.1" 200 - 262 0.137 0.201
+2026-01-30 18:48:31,140 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "GET /web/webclient/load_menus/e8fdbc55aa4a509d3e2d930c26202a888be19e6c88d7dc5530cbc1f1d4deec37 HTTP/1.1" 200 - 1 0.001 0.004
+2026-01-30 18:48:31,376 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.040 0.017
+2026-01-30 18:48:31,404 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-30 18:48:31,475 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.006
+2026-01-30 18:48:31,493 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /longpolling/im_status HTTP/1.1" 200 - 12 0.021 0.008
+2026-01-30 18:48:31,501 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /web/action/load HTTP/1.1" 200 - 17 0.025 0.013
+2026-01-30 18:48:31,724 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "[36mGET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1[0m" 304 - 11 0.008 0.006
+2026-01-30 18:48:31,741 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /web/dataset/call_kw/nhan_vien/load_views HTTP/1.1" 200 - 45 0.032 0.013
+2026-01-30 18:48:31,825 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:31] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.004
+2026-01-30 18:48:32,059 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:32] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-30 18:48:32,146 6390 INFO ? werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:32] "[36mGET /muk_web_theme/static/img/default_icon.png HTTP/1.1[0m" 304 - - - -
+2026-01-30 18:48:33,935 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:33] "POST /web/action/load HTTP/1.1" 200 - 12 0.011 0.008
+2026-01-30 18:48:34,274 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:34] "POST /web/dataset/call_kw/khach_hang/load_views HTTP/1.1" 200 - 28 0.019 0.010
+2026-01-30 18:48:34,593 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:34] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-30 18:48:36,898 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2026-01-30 18:48:37,596 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.935
+2026-01-30 18:48:41,277 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:41] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.004
+2026-01-30 18:48:42,737 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2026-01-30 18:48:44,526 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:44] "POST /web/action/load HTTP/1.1" 200 - 28 0.017 0.010
+2026-01-30 18:48:44,889 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:44] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 52 0.031 0.019
+2026-01-30 18:48:45,247 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:45] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 46 0.025 0.010
+2026-01-30 18:48:45,577 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:45] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.004
+2026-01-30 18:48:47,279 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.006
+2026-01-30 18:48:47,301 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.020 0.011
+2026-01-30 18:48:50,961 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:50] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.030 0.010
+2026-01-30 18:48:51,288 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.004
+2026-01-30 18:48:53,571 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['quan_ly_van_ban'] to user admin #2 via 127.0.0.1 
+2026-01-30 18:48:53,571 6390 INFO baitapbig odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-01-30 18:48:53,572 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['quan_ly_van_ban'] to user admin #2 via 127.0.0.1 
+2026-01-30 18:48:53,577 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:48:53,613 6390 INFO baitapbig odoo.modules.loading: loading 1 modules... 
+2026-01-30 18:48:53,617 6390 INFO baitapbig odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-01-30 18:48:53,682 6390 INFO baitapbig odoo.modules.loading: updating modules list 
+2026-01-30 18:48:53,684 6390 INFO baitapbig odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-01-30 18:48:53,741 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:48:53,822 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:48:53,931 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:48:54,274 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_khach_hang', defaulting to LGPL-3 
+2026-01-30 18:48:54,274 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'nhan_su', defaulting to LGPL-3 
+2026-01-30 18:48:54,278 6390 INFO baitapbig odoo.modules.loading: loading 24 modules... 
+2026-01-30 18:48:54,285 6390 INFO baitapbig odoo.modules.loading: 24 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-01-30 18:48:54,286 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:48:54,287 6390 INFO baitapbig odoo.modules.loading: loading 25 modules... 
+2026-01-30 18:48:54,287 6390 INFO baitapbig odoo.modules.loading: Loading module quan_ly_van_ban (25/25) 
+2026-01-30 18:48:54,325 6390 WARNING baitapbig odoo.modules.module: Missing `license` key in manifest for 'quan_ly_van_ban', defaulting to LGPL-3 
+2026-01-30 18:48:54,347 6390 INFO baitapbig odoo.modules.registry: module quan_ly_van_ban: creating or updating database tables 
+2026-01-30 18:48:54,514 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/security/ir.model.access.csv 
+2026-01-30 18:48:54,532 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/danh_sach_van_ban_views.xml 
+2026-01-30 18:48:54,544 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/loai_van_ban_views.xml 
+2026-01-30 18:48:54,560 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/van_ban_den_views.xml 
+2026-01-30 18:48:54,575 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/van_ban_di_views.xml 
+2026-01-30 18:48:54,592 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/van_ban_noi_bo_views.xml 
+2026-01-30 18:48:54,608 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/ai_tim_kiem_views.xml 
+2026-01-30 18:48:54,617 6390 INFO baitapbig odoo.modules.loading: loading quan_ly_van_ban/views/menu.xml 
+2026-01-30 18:48:54,650 6390 INFO baitapbig odoo.addons.base.models.ir_translation: module quan_ly_van_ban: no translation for language vi_VN 
+2026-01-30 18:48:54,659 6390 INFO baitapbig odoo.modules.loading: Module quan_ly_van_ban loaded in 0.37s, 339 queries 
+2026-01-30 18:48:54,660 6390 INFO baitapbig odoo.modules.loading: 25 modules loaded in 0.37s, 339 queries (+0 extra) 
+2026-01-30 18:48:54,926 6390 INFO baitapbig odoo.modules.loading: Modules loaded. 
+2026-01-30 18:48:54,930 6390 INFO baitapbig odoo.modules.registry: Registry loaded in 1.324s 
+2026-01-30 18:48:54,930 6390 INFO baitapbig odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-01-30 18:48:54,934 6390 INFO baitapbig odoo.modules.registry: Registry changed, signaling through the database 
+2026-01-30 18:48:54,935 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:54] "POST /web/dataset/call_button HTTP/1.1" 200 - 1842 0.892 0.478
+2026-01-30 18:48:55,255 6390 INFO baitapbig odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-01-30 18:48:55,596 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:55] "GET /web HTTP/1.1" 200 - 274 0.144 0.199
+2026-01-30 18:48:55,930 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:55] "GET /web/webclient/load_menus/b6623179293aca07f540d172518ea410c23d47cb181138abfbd33a3e11ea72e3 HTTP/1.1" 200 - 1 0.001 0.003
+2026-01-30 18:48:56,140 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /mail/init_messaging HTTP/1.1" 200 - 67 0.039 0.017
+2026-01-30 18:48:56,196 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-30 18:48:56,268 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.008
+2026-01-30 18:48:56,289 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /longpolling/im_status HTTP/1.1" 200 - 12 0.024 0.009
+2026-01-30 18:48:56,292 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /web/action/load HTTP/1.1" 200 - 17 0.027 0.011
+2026-01-30 18:48:56,494 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /web/dataset/call_kw/nhan_vien/load_views HTTP/1.1" 200 - 45 0.025 0.011
+2026-01-30 18:48:56,502 6390 INFO ? werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "[36mGET /muk_web_theme/static/img/default_icon.png HTTP/1.1[0m" 304 - - - -
+2026-01-30 18:48:56,620 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:48:56,827 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.004
+2026-01-30 18:48:56,943 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:56] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 11 0.007 0.006
+2026-01-30 18:48:58,934 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:58] "POST /web/action/load HTTP/1.1" 200 - 12 0.008 0.006
+2026-01-30 18:48:59,269 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:59] "POST /web/dataset/call_kw/khach_hang/load_views HTTP/1.1" 200 - 28 0.016 0.009
+2026-01-30 18:48:59,595 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-01-30 18:48:59,977 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:48:59] "POST /web/action/load HTTP/1.1" 200 - 15 0.009 0.007
+2026-01-30 18:49:00,306 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:00] "POST /web/dataset/call_kw/loai_van_ban/load_views HTTP/1.1" 200 - 22 0.012 0.007
+2026-01-30 18:49:00,631 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:00] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:49:02,686 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:02] "POST /web/dataset/call_kw/loai_van_ban/onchange HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:49:09,604 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-30 18:49:13,094 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:13] "POST /web/action/load HTTP/1.1" 200 - 12 0.008 0.007
+2026-01-30 18:49:13,422 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:13] "POST /web/dataset/call_kw/ai_tim_kiem/load_views HTTP/1.1" 200 - 14 0.010 0.006
+2026-01-30 18:49:13,749 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:13] "POST /web/dataset/call_kw/ai_tim_kiem/onchange HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:49:18,989 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:18] "POST /web/action/load HTTP/1.1" 200 - 16 0.009 0.007
+2026-01-30 18:49:19,321 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:19] "POST /web/dataset/call_kw/danh_sach_van_ban/load_views HTTP/1.1" 200 - 19 0.012 0.009
+2026-01-30 18:49:19,643 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:19] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-01-30 18:49:20,723 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.003
+2026-01-30 18:49:21,468 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:21] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.013 49.993
+2026-01-30 18:49:46,221 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:46] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.014 49.953
+2026-01-30 18:49:46,590 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:49:46] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:50:36,474 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:50:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.931
+2026-01-30 18:50:36,906 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:50:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.004
+2026-01-30 18:51:26,452 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:51:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 49.968
+2026-01-30 18:51:27,916 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:51:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2026-01-30 18:52:16,700 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:52:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 49.930
+2026-01-30 18:52:18,941 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:52:18] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.004
+2026-01-30 18:53:06,944 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:53:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.929
+2026-01-30 18:53:09,957 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:53:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2026-01-30 18:53:57,280 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:53:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.012
+2026-01-30 18:54:00,908 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:54:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2026-01-30 18:54:47,538 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:54:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.977
+2026-01-30 18:54:51,949 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:54:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2026-01-30 18:55:37,795 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:55:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.936
+2026-01-30 18:55:42,920 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:55:42] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2026-01-30 18:56:28,058 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:56:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.933
+2026-01-30 18:56:33,923 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:56:33] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:57:18,344 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:57:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.969
+2026-01-30 18:57:24,948 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:57:24] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:58:08,595 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:58:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.932
+2026-01-30 18:58:15,935 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:58:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:58:58,838 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:58:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.924
+2026-01-30 18:59:06,913 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:59:06] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 18:59:49,127 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:59:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.970
+2026-01-30 18:59:57,917 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 18:59:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 19:00:39,383 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:00:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.936
+2026-01-30 19:00:48,948 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:00:48] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2026-01-30 19:01:29,640 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:01:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.928
+2026-01-30 19:01:39,929 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:01:39] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2026-01-30 19:02:19,923 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:02:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.969
+2026-01-30 19:02:30,920 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:02:30] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2026-01-30 19:03:10,153 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:03:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.914
+2026-01-30 19:03:21,948 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:03:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 19:04:00,410 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 49.930
+2026-01-30 19:04:12,927 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:12] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 19:04:19,336 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:19] "POST /web/action/load HTTP/1.1" 200 - 22 0.013 0.009
+2026-01-30 19:04:19,679 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:19] "POST /web/dataset/call_kw/van_ban_di/load_views HTTP/1.1" 200 - 22 0.013 0.008
+2026-01-30 19:04:19,924 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:19] "POST /web/action/load HTTP/1.1" 200 - 15 0.009 0.007
+2026-01-30 19:04:20,005 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.003
+2026-01-30 19:04:20,256 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:20] "POST /web/dataset/call_kw/van_ban_den/load_views HTTP/1.1" 200 - 22 0.013 0.007
+2026-01-30 19:04:20,575 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.002
+2026-01-30 19:04:20,882 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:20] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2026-01-30 19:04:22,235 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:22] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.002
+2026-01-30 19:04:23,967 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:23] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.005
+2026-01-30 19:04:25,574 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:25] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2026-01-30 19:04:50,694 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:04:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.970
+2026-01-30 19:05:03,939 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:05:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.004
+2026-01-30 19:05:40,985 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:05:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.967
+2026-01-30 19:05:54,948 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:05:54] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2026-01-30 19:06:31,257 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:06:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 49.954
+2026-01-30 19:06:45,929 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:06:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2026-01-30 19:07:21,558 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:07:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 49.986
+2026-01-30 19:07:36,912 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:07:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.004
+2026-01-30 19:08:11,844 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:08:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 49.958
+2026-01-30 19:08:14,647 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:08:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.004
+2026-01-30 19:08:28,234 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:08:28] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2026-01-30 19:09:02,132 6390 INFO baitapbig werkzeug: 127.0.0.1 - - [30/Jan/2026 19:09:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 49.959
+2026-01-30 19:09:22,454 6390 INFO ? odoo.service.server: Initiating server reload 
+2026-01-30 19:09:22,744 6390 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 11 connections  
+2026-01-30 19:09:23,794 6390 INFO ? odoo: Odoo version 15.0 
+2026-01-30 19:09:23,795 6390 INFO ? odoo: Using configuration file at /home/khanh/TTDN-16-02-N7/odoo.conf 
+2026-01-30 19:09:23,795 6390 INFO ? odoo: addons paths: ['/home/khanh/TTDN-16-02-N7/odoo/addons', '/home/khanh/.local/share/Odoo/addons/15.0', '/home/khanh/TTDN-16-02-N7/addons'] 
+2026-01-30 19:09:23,795 6390 INFO ? odoo: database: odoo@localhost:5431 
+2026-01-30 19:09:23,917 6390 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-01-30 19:09:24,195 6390 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-CC636K76.localdomain:8069 
